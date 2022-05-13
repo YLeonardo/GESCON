@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico">
+        
+        <title>Error 404</title>
+    </head>
+    <body>
+        <section class="bg-linear">
+            <div class="container">
+                <div class="error-404 animado">
+                    <h2 class="text-white oops text-center">Oops!</h2>
+                    <h1 class="text-white text-404 text-center">404</h1>
+                    <p class="text-white not-found text-center">Página no encontrada </p>
+                    <a class="btn btn-volver mt-4 pt-3 pb-3 pl-4 pr-4 principal-color" href="index.html">Regresar</a>
+                </div>
+            </div>
+        </section>
+        
+        <style>
+        .error-404 {
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        height: 100vh;
+        }
+        .text-404 {
+        font-size: 250px;
+        animation: 1s mostrarIzquierda;
+        font-family: Quicksand, sans-serif;
+        font-weight: 900;
+        }
+        .bg-linear {
+        background: linear-gradient(to bottom, #0059ff, #ffffff);
+        }
+        .principal-color {
+        color: #0059ff !important;
+        font-size: 18px;
+        font-family: Quicksand, sans-serif;
+        font-weight: 100;
+        }
+        .btn-volver {
+        color: var(--mainColor);
+        background: #fff;
+        transition: 0.3s ease-in-out;
+        border-radius: 0;
+        }
+        .btn-volver:hover {
+        transform: scale(1.2);
+        color: var(--secondaryColor);
+        }
+        .oops {
+        animation: 1s mostrarDerecha;
+        font-family: Quicksand, sans-serif;
+        font-weight: 100;
+        font-size: 38px;
+        }
+        .not-found {
+        font-family: Quicksand, sans-serif;
+        font-weight: 100;
+        font-size: 27px;
+        }
+        @keyframes mostrarIzquierda {
+        0% {
+            transform: translateX(120px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        }
+        @keyframes mostrarDerecha {
+        0% {
+            transform: translateX(-120px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+        }
+        @media (max-width: 768px) {
+        .oops {
+            font-size: 25px;
+        }
+        .text-404 {
+            font-size: 100px;
+        }
+        }
+        </style>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+                integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+                crossorigin="anonymous">
+        </script>
+    </body>
+</html>
