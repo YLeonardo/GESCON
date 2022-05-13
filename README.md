@@ -1,5 +1,4 @@
 # GESCON
-GESCON: Gestión de Congresos
 El Sistema para Gestión de Congresos (GESCON) es un portal web para gestión integrada de
 congresos. Los autores envían artículos los cuales son evaluados por un comité de programa.
 Posteriormente según el cupo establecido (acorde con los días y espacios físicos disponibles) y las
